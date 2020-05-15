@@ -1,0 +1,33 @@
+.alinhamento{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alinhamento strong{
+    font-size: 2ch;
+    font-weight: bold;
+    font-family: fantasy;
+    width: 100%;
+}
+
+.alinhamento img{
+    width: 100%;
+    height: 10%;
+    border: 1px solid;
+}
+
+.alinhamento ion-button{
+    font-size: 2ch;
+    float: right !important;
+    margin-top: -4%;
+}
+
+.alinhamento div{
+    justify-content: space-between;
+  }
+
+  .status{
+    float: left;
+    margin-top: 1%;
+  }

@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/minhas-reservas/minhas-reservas.module').then(m => m.MinhasReservasPageModule)
+    loadChildren: () => import('./pages/realizar-reserva/realizar-reserva.module').then(m => m.RealizarReservaPageModule)
   },
   {
-    path: 'realizar-reserva',
-    loadChildren: () => import('./pages/realizar-reserva/realizar-reserva.module').then(m => m.RealizarReservaPageModule)
+    path: 'minhas-reservas',
+    loadChildren: () => import('./pages/minhas-reservas/minhas-reservas.module').then(m => m.MinhasReservasPageModule)
   }
 ];
 
